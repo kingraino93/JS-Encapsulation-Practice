@@ -160,4 +160,5 @@ function changeSelectedSandwichBread(value) {
     selectedSandwich.bread = value
     saveSelectedSandwich()
     renderCart()
+    renderIngredientList.render()
 }
